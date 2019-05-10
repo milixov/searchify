@@ -4,6 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install -g json-server`
+### `json-server -w data/db.json -p 5000`
+
+Runs the fake json db in <br>
+Available at [http://localhost:5000](http://localhost:5000) to test in HTTP Client.
+
 ### `yarn start`
 
 Runs the app in the development mode.<br>
@@ -18,6 +24,8 @@ Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
+### `yarn global add serve`
+### `serve -s build -l 3000`
 
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
