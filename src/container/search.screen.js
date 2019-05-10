@@ -28,11 +28,7 @@ const columns = [
 @observer
 class SearchScreen extends Component {
   @observable store = this.props.stores.search;
-
-  constructor(props) {
-    super(props);
-    this.state = { query: "" };
-  }
+  state = { query: "" };
 
   handleChange = prop => event => {
     const value = event.target.value;
@@ -56,6 +52,7 @@ class SearchScreen extends Component {
           loading={search.loading}
           dataSource={search.data}
           columns={columns}
+          pagination={false}
         />
       </div>
     );

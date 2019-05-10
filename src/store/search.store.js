@@ -14,4 +14,9 @@ export default class SearchStore {
       .catch(() => (this.search.data = []))
       .finally(() => (this.search.loading = false));
   }
+
+  @action
+  a() {
+    this.searchData(1);
+  }
 }
