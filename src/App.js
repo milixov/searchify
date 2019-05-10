@@ -1,13 +1,14 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import "antd/dist/antd.css";
-import { Button, DatePicker } from "antd";
+
+import SearchScreen from "./container/search.screen";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <SearchScreen />
+      {/* <header className="App-header">
         <Button />
         <DatePicker />
         <img src={logo} className="App-logo" alt="logo" />
@@ -22,7 +23,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }

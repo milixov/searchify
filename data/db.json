@@ -1,0 +1,11 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "milad" },
+    { "id": 2, "title": "react-js", "author": "hosein" },
+    { "id": 3, "title": "react-native", "author": "facebook" },
+    { "id": 4, "title": "jset", "author": "google" },
+    { "id": 5, "title": "stylus", "author": "sass" }
+  ],
+  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
+  "profile": { "name": "typicode" }
+}
