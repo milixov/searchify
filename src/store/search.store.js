@@ -9,7 +9,7 @@ export default class SearchStore {
   searchData(query) {
     this.search.loading = true;
     axios
-      .get(url + "/posts?q=" + query, { timeout: 5000 })
+      .get(`${url}/posts?q=${query}`, { timeout: 5000 })
       .then(response => (this.search.data = response.data))
       .catch(() => (this.search.data = []))
       .finally(() => (this.search.loading = false));
