@@ -4,8 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm install -g json-server`
-### `json-server -w data/db.json -p 5000`
+### `npm install`
 
 Runs the fake json db in <br>
 Available at [http://localhost:5000](http://localhost:5000) to test in HTTP Client.
