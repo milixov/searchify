@@ -28,6 +28,7 @@ class SearchScreen extends Component {
       <div>
         <Input placeholder="Search keyword..." />
         <Table
+          className="mTable"
           loading={search.loading}
           dataSource={search.data}
           columns={columns}

@@ -1,6 +1,6 @@
 import { action, observable, configure } from "mobx";
 import axios from "axios";
-import url from "./url";
+import { url } from "./url";
 
 configure({ enforceActions: true });
 
