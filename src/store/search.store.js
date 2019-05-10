@@ -1,8 +1,6 @@
-import { action, observable, configure } from "mobx";
+import { action, observable } from "mobx";
 import axios from "axios";
 import { url } from "./url";
-
-configure({ enforceActions: true });
 
 export default class SearchStore {
   @observable search = { data: [], loading: false };
